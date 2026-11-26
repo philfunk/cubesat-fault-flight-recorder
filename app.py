@@ -1,4 +1,4 @@
-"""Streamlit interface for the CubeSat Fault Flight Recorder demo."""
+"""Streamlit interface for the QEC Flight Recorder demo."""
 
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ from flight_recorder import (
 
 
 st.set_page_config(
-    page_title="CubeSat Fault Flight Recorder",
+    page_title="QEC Flight Recorder",
     page_icon="🛰️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -125,7 +125,7 @@ with st.sidebar:
 run = st.session_state.original_run
 
 st.markdown('<div class="app-kicker">Ground simulation · deterministic replay</div>', unsafe_allow_html=True)
-st.title("CubeSat Fault Flight Recorder")
+st.title("QEC Flight Recorder")
 st.markdown(
     "Monitor the spacecraft and ground link, inspect anomalies, and test whether "
     "removing one modeled fault prevents an incident in replay."

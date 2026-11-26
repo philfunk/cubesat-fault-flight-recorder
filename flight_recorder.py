@@ -438,7 +438,7 @@ def build_incident_report(
     stop = min(original.ticks, tick + 4)
     report = {
         "schema_version": SCHEMA_VERSION,
-        "report_type": "cubesat_fault_flight_recorder_incident",
+        "report_type": "qec_flight_recorder_incident",
         "simulation_notice": SIMULATION_NOTICE,
         "original_run": {
             "run_id": original.run_id,

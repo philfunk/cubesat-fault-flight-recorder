@@ -1,5 +1,5 @@
 ---
-title: CubeSat Fault Flight Recorder
+title: QEC Flight Recorder
 emoji: 🛰️
 colorFrom: blue
 colorTo: green
@@ -9,7 +9,9 @@ app_file: app.py
 pinned: false
 ---
 
-# CubeSat Fault Flight Recorder
+# QEC Flight Recorder
+
+![QEC Flight Recorder interface](preview.png)
 
 A small, working ground-based demo for recording simulated CubeSat and ground-station telemetry, detecting spacecraft or RF-link anomalies, and replaying a run with one injected fault removed.
 
@@ -39,7 +41,7 @@ Python 3.10 or newer is recommended.
 ### 1. Open a terminal in this folder
 
 ```bash
-cd cubesat-fault-flight-recorder
+cd qec-flight-recorder
 ```
 
 ### 2. Create and activate an isolated environment
